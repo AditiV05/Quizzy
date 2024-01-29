@@ -1,0 +1,140 @@
+Body {
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.logo {
+  background: linear-gradient(to right, #ff8a00, #e52e71);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+h1 {
+  color: white;
+}
+
+.container {
+  height: 70vh;
+  width: 70vw;
+  background-color: #92c7cf;
+  border-radius: 20px;
+}
+
+#text1 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  font-family: "Karma";
+  font-size: xx-large;
+}
+
+#text2 {
+  color: black;
+}
+
+#text3 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-right: 5%;
+}
+
+.container3 {
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  height: 24%;
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 40px;
+  grid-template-areas:
+    "one two "
+    "three four";
+}
+
+.container3 > div {
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 20px;
+  height: 20px;
+}
+
+.sqaure {
+  height: 45vh;
+  width: 50vw;
+  background-color: white;
+}
+
+h3 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+}
+
+p {
+  color: black;
+  margin-left: 5%;
+}
+
+.square2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  height: 20px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-image: linear-gradient(to right, #ff8a00, #e52e71);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-left: 45%;
+  margin-top: 5%;
+  color: white;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.mode {
+  margin-bottom: 4%;
+}
+
+.highlight {
+  height: 40px;
+}
